@@ -1,4 +1,3 @@
-## Voorbeeld afbeelding
 # desktop view
 ![voorbeeld afbeelding](images/mockup.png)
 
