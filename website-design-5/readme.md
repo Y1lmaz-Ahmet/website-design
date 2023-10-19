@@ -1,6 +1,6 @@
 ## Voorbeeld afbeelding
 
-![afbeelding op small screen](images/mockup.png)
+![afbeelding voorbeeld](images/mockup.png)
 
 ## Responsiviteit
 
