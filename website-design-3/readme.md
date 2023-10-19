@@ -1,6 +1,6 @@
-## Voorbeeld Afbeelding
+# voorbeeld Afbeelding
 
-![Alt Tekst](images/website-mockup.png)
+![Alt Tekst](images/mockup.png)
 
 ## Responsiviteit
 
