@@ -14,7 +14,126 @@
 	<title>website-design-12 | Accordions met bootstrap</title>
 </head>
 <body>
-	<h1>hello world</h1>
+	<h1>Frequently asked questions</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="card">
+						<h1>HTML vs HTML5</h1>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+									Wat is HTML?
+								</button>
+							</h2>
+							<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">HTML, of HyperText Markup Language, is de standaardtaal voor het maken van webpagina's. Het bestaat uit tags en elementen die de structuur en inhoud van een webpagina definiëren. HTML wordt gebruikt om tekst, afbeeldingen, links en meer weer te geven.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							Hoe voeg ik een hyperlink toe in HTML?
+						</button>
+						</h2>
+						<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Om een hyperlink toe te voegen, gebruik je het <a>-element en de href-attribuut. Bijvoorbeeld: <a href="https://www.example.com">Ga naar voorbeeldwebsite</a>. Dit maakt een link met de tekst "Ga naar voorbeeldwebsite".</div>
+						</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+									HTML vs. HTML5
+								</button>
+							</h2>
+							<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">HTML (HyperText Markup Language) verwijst naar de oorspronkelijke versie van de webtaal. HTML5 is de nieuwere, meer geavanceerde versie. Een belangrijk verschil is dat HTML5 uitgebreide ondersteuning biedt voor multimedia, zoals video- en audioweergave, terwijl HTML beperkter is op dit gebied. HTML5 introduceert ook nieuwe elementen en attributen voor betere semantische structuur en interactieve functionaliteit, zoals <b> video, audio, canvas, article, nav</b>, en meer. HTML5 heeft de webstandaard geëvolueerd en biedt ontwikkelaars meer krachtige tools voor het bouwen van moderne webpagina's.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-md-6">
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="card">
+						<h1>SASS vs CSS</h1>
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+									 leesbaarheid
+								</button>
+							</h2>
+							<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">CSS: CSS-code kan repetitief en minder leesbaar zijn. SASS/SCSS: SASS/SCSS maakt gebruik van variabelen en nesting om de leesbaarheid van de code te verbeteren, waardoor het gemakkelijker wordt om complexe stijlen te beheren.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+							 Herbruikbaarheid
+						</button>
+						</h2>
+						<div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">CSS: CSS heeft beperkte herbruikbaarheid, wat kan leiden tot duplicatie van code. SASS/SCSS: SASS/SCSS stelt mixins en functies beschikbaar, waardoor ontwikkelaars code gemakkelijk kunnen hergebruiken en onderhouden. Dit bevordert consistentie in stijlen en minimaliseert herhaling.</div>
+						</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+									 variabelen
+								</button>
+							</h2>
+							<div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">CSS: CSS mist ingebouwde ondersteuning voor variabelen. SASS/SCSS: SASS/SCSS introduceert variabelen die ontwikkelaars kunnen gebruiken om waarden op één plek op te slaan en ze vervolgens overal in de stijlen te hergebruiken. Dit vereenvoudigt het beheer van kleuren, lettertypen en andere stijlgerelateerde waarden.</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+									 Nesting
+								</button>
+							</h2>
+							<div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">CSS: CSS heeft geen ingebouwde nesting van regels, waardoor code soms ongestructureerd kan lijken. SASS/SCSS: SASS/SCSS maakt het mogelijk om regels te nesten, wat de structuur van de stijlen verbetert en de relatie tussen elementen op een webpagina duidelijker maakt. Dit leidt tot een betere onderhoudbaarheid en begrijpelijkheid van de stijlen.</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+									 Importeren
+								</button>
+							</h2>
+							<div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+								<div class="accordion-body">CSS: CSS-imports leiden tot meerdere HTTP-verzoeken wanneer afzonderlijke bestanden worden geïmporteerd. SASS/SCSS: SASS/SCSS kan meerdere bestanden samenvoegen in één CSS-uitvoer, wat de prestaties kan verbeteren door het aantal HTTP-verzoeken te verminderen. Dit maakt het eenvoudiger om code modulair te organiseren en te beheren.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>
 

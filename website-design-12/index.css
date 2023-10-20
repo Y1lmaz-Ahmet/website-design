@@ -4,3 +4,46 @@
 	margin: 0;
 	font-family: 'PT Sans', sans-serif;
 }
+
+h1 {
+	text-align: center;
+	margin: 50px 0 !important;
+	font-weight: bold;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+	background-color: transparent !important;
+}
+
+.card .accordion-header {
+	background-color: transparent !important;
+	border: none !important;
+	padding: 0 !important;
+}
+
+.show {
+	background-color: transparent !important;
+}
+
+.accordion-button::after {
+	flex-shrink: 0;
+	width: none !important;
+	height: none !important;
+	margin-left: auto;
+	content: "";
+	background-image: none !important;
+	background-repeat: no-repeat;
+	background-size: none !important;
+	transition: none !important;
+}
+
+.accordion-body {
+	background-color: #e8eeff;
+	text-align: justify;
+}
+
+.card {
+	box-shadow: 0 2px 20px 0 rgba(110, 130, 208, .18);
+}
