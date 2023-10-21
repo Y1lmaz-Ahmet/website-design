@@ -479,9 +479,9 @@ nav .content .links li label:hover {
 	}
 }
 
-@media (max-width:700px) {
+@media (max-width:500px) {
 	.gallary-card .row img {
-		width: 400px;
+		width: 250px;
 	}
 }
 
