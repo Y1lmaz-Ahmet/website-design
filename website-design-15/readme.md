@@ -1,2 +1,2 @@
 ## Voorbeeld Afbeelding
-[afbeelding-desktop](images/mockup.png)
+![afbeelding](images/mockup.png)
